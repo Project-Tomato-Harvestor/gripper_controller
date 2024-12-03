@@ -48,8 +48,8 @@ class GripperController(Node):
                 # 50% open
                 case 1:
                     msg_ctrl_msg.initialize = False
-                    msg_ctrl_msg.position = 500.0
-                    msg_ctrl_msg.force = 1000.0
+                    msg_ctrl_msg.position = 650.0
+                    msg_ctrl_msg.force = 200.0
                     msg_ctrl_msg.speed = 5.0
                 # Fully close
                 case 2:
